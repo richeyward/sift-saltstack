@@ -1,5 +1,7 @@
 include:
   - sift.repos
+  - sift.packages
+  - sift.python-packages
 
 sift-version-file:
   file.managed:
@@ -9,3 +11,5 @@ sift-version-file:
     - group: root
     - require:
       - sls: sift.repos
+      - sls: sift.packages
+      - sls: sift.python-packages

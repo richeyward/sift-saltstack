@@ -12,6 +12,14 @@ Ensure that salt is already installed.
 
 Once done, run the following in this directory:
 
-`sudo salt-call -l debug --local --state-output=terse --out=yaml state.apply sift.vm pillar={sift_user: "$USER"}`
+`sudo salt-call -l profile --local --file-root ./ state.apply sift.vm pillar='{"sift_user": "$USER"}'`
 
 The $USER is the current username.
+
+## Packages
+One thing that I personally found frustrating about SIFT was the lack of documentation of what tools were available.  Not a negative criticism but as I add packages to this repo, I will list them here. I will aim to port most or all packages from the original project.
+
+### Repos
+- [Gift](https://launchpad.net/~sift/+archive/ubuntu/stable) - Glorious Incident Feedback Tools PPA
+- [SIFT](https://launchpad.net/~sift/+archive/ubuntu/stable) - SIFT PPA
+- Ubuntu Universe - Allows installation of extra Ubuntu packages
