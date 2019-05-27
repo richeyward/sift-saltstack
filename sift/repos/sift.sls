@@ -3,23 +3,15 @@
 include:
   - sift.packages.software-properties-common
 
-{%- if version == "stable" %}
-sift-dev:
-  pkgrepo.absent:
-    - ppa: sift/dev
-    - require_in:
-      - pkgrepo: sift-repo
-{%- else %}
 sift-stable:
   pkgrepo.absent:
-    - ppa: sift/stable
+    - ppa: richeyward/sift-bionic-testing
     - require_in:
       - pkgrepo: sift-repo
-{%- endif %}
 
 sift-repo:
   pkgrepo.managed:
-    - ppa: sift/{{ version }}
+    - ppa: richeyward/sift-bionic-testing
     - refresh_db: true
     - require:
       - pkg: software-properties-common
