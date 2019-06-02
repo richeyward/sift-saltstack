@@ -6,7 +6,7 @@ include:
   - sift.packages.aircrack-ng
 #   - sift.packages.apache2
 #   - sift.packages.arp-scan
-  # - sift.packages.autopsy
+  - sift.packages.autopsy
 #   - sift.packages.bcrypt
 #   - sift.packages.bitpim
 #   - sift.packages.bitpim-lib
@@ -163,7 +163,7 @@ include:
 #   - sift.packages.samba
 #   - sift.packages.samdump2
 #   - sift.packages.scalpel
-  # - sift.packages.sleuthkit
+  - sift.packages.sleuthkit
 #   - sift.packages.socat
 #   - sift.packages.ssdeep
 #   - sift.packages.ssldump
@@ -208,7 +208,7 @@ sift-packages:
       - sls: sift.packages.aircrack-ng
 #       - sls: sift.packages.apache2
 #       - sls: sift.packages.arp-scan
-      # - sls: sift.packages.autopsy
+      - sls: sift.packages.autopsy
 #       - sls: sift.packages.bcrypt
 #       - sls: sift.packages.bitpim
 #       - sls: sift.packages.bitpim-lib
@@ -364,7 +364,7 @@ sift-packages:
 #       - sls: sift.packages.samba
 #       - sls: sift.packages.samdump2
 #       - sls: sift.packages.scalpel
-      # - sls: sift.packages.sleuthkit
+      - sls: sift.packages.sleuthkit
 #       - sls: sift.packages.socat
 #       - sls: sift.packages.ssdeep
 #       - sls: sift.packages.ssldump
