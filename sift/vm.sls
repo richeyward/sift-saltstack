@@ -5,7 +5,7 @@ include:
   # - sift.python-packages
   # - sift.tools
   - sift.scripts
-  # - sift.config
+  - sift.config
 
 sift-version-file:
   file.managed:
@@ -20,4 +20,4 @@ sift-version-file:
       # - sls: sift.python-packages
       # - sls: sift.tools
       - sls: sift.scripts
-      # - sls: sift.config
+      - sls: sift.config
