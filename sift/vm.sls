@@ -1,7 +1,7 @@
 include:
   - sift.custom
-  # - sift.repos
-  # - sift.packages
+  - sift.repos
+  - sift.packages
   # - sift.python-packages
   # - sift.tools
   # - sift.scripts
@@ -15,8 +15,8 @@ sift-version-file:
     - group: root
     - require:
       - sls: sift.custom
-      # - sls: sift.repos
-      # - sls: sift.packages
+      - sls: sift.repos
+      - sls: sift.packages
       # - sls: sift.python-packages
       # - sls: sift.tools
       # - sls: sift.scripts
