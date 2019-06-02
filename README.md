@@ -39,4 +39,7 @@ One thing that I personally found frustrating about SIFT was the lack of documen
 - *[aircrack.ng](https://www.aircrack-ng.org/)* - Used to capture wireless traffic and crack certain ciphers.
 
 ### Windows tools
-- *[Powershell](https://github.com/PowerShell) - Linux version of the famous Windows tool
+- *[Powershell](https://github.com/PowerShell)* - Linux version of the famous Windows tool
+
+### Scripts
+- *[ImageMounter](https://github.com/kevthehermit/Scripts/blob/master/imageMounter.py)* - Easily mounts multiple types of disk images
