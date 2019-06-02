@@ -26,11 +26,17 @@ One thing that I personally found frustrating about SIFT was the lack of documen
 - Ubuntu Universe - Allows installation of extra Ubuntu packages
 
 ### Anti-Virus
-- *[clamav](https://www.clamav.net/) - Free AV. Useful for finding malware/offsec tools
+- *[clamav](https://www.clamav.net/)* - Free AV. Useful for finding malware/offsec tools
 
 ### Disk Analysis
 - *[autopsy](https://www.sleuthkit.org/autopsy/)* - Frontend for sleuthkit
 - *[sleuthkit](https://www.sleuthkit.org/sleuthkit/)* - Collection of cli disk forensic tools (*TODO: Document tools*)
 
+### Memory Analysis
+- *[volatility](https://www.volatilityfoundation.org/)* - Powerful memory analysis framework
+
 ### Network/Wireless
 - *[aircrack.ng](https://www.aircrack-ng.org/)* - Used to capture wireless traffic and crack certain ciphers.
+
+### Windows tools
+- *[Powershell](https://github.com/PowerShell) - Linux version of the famous Windows tool
