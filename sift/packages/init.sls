@@ -18,7 +18,7 @@ include:
 #   - sift.packages.cabextract
 #   - sift.packages.ccrypt
 #   - sift.packages.cifs-utils
-  # - sift.packages.clamav
+  - sift.packages.clamav
 #   - sift.packages.cmospwd
 #   - sift.packages.cryptcat
 #   - sift.packages.cryptsetup
@@ -220,7 +220,7 @@ sift-packages:
 #       - sls: sift.packages.cabextract
 #       - sls: sift.packages.ccrypt
 #       - sls: sift.packages.cifs-utils
-      # - sls: sift.packages.clamav
+      - sls: sift.packages.clamav
 #       - sls: sift.packages.cmospwd
 #       - sls: sift.packages.cryptcat
 #       - sls: sift.packages.cryptsetup
