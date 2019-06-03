@@ -19,7 +19,7 @@ include:
 #   - sift.python-packages.python-magic
 #   - sift.python-packages.python-registry
   - sift.python-packages.rekall
-#   - sift.python-packages.setuptools
+  - sift.python-packages.setuptools
 #   - sift.python-packages.six
 #   - sift.python-packages.stix-validator
 #   - sift.python-packages.stix
@@ -54,7 +54,7 @@ sift-python-packages:
 #       - sls: sift.python-packages.python-magic
 #       - sls: sift.python-packages.python-registry
       - sls: sift.python-packages.rekall
-#       - sls: sift.python-packages.setuptools
+      - sls: sift.python-packages.setuptools
 #       - sls: sift.python-packages.six
 #       - sls: sift.python-packages.stix-validator
 #       - sls: sift.python-packages.stix
