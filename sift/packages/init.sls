@@ -148,7 +148,7 @@ include:
 #   - sift.packages.python-pytsk3
 #   - sift.packages.python-qt4
 #   - sift.packages.python-tk
-#   - sift.packages.python-virtualenv
+  - sift.packages.python-virtualenv
   # - sift.packages.python-volatility
 #   - sift.packages.python-yara
 #   - sift.packages.python3
@@ -349,7 +349,7 @@ sift-packages:
 #       - sls: sift.packages.python-pytsk3
 #       - sls: sift.packages.python-qt4
 #       - sls: sift.packages.python-tk
-#       - sls: sift.packages.python-virtualenv
+      - sls: sift.packages.python-virtualenv
       # - sls: sift.packages.python-volatility
 #       - sls: sift.packages.python-yara
 #       - sls: sift.packages.python3
