@@ -27,7 +27,7 @@ include:
 #   - sift.python-packages.unicodecsv
 #   - sift.python-packages.usnparser
 #   - sift.python-packages.virustotal-api
-#   - sift.python-packages.wheel
+  - sift.python-packages.wheel
 #   - sift.python-packages.windowsprefetch
 
 sift-python-packages:
@@ -62,5 +62,5 @@ sift-python-packages:
 #       - sls: sift.python-packages.unicodecsv
 #       - sls: sift.python-packages.usnparser
 #       - sls: sift.python-packages.virustotal-api
-#       - sls: sift.python-packages.wheel
+      - sls: sift.python-packages.wheel
 #       - sls: sift.python-packages.windowsprefetch
