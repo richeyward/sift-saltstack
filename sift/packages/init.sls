@@ -85,7 +85,7 @@ include:
 #   - sift.packages.libfvde-tools
 #   - sift.packages.liblightgrep
 #   - sift.packages.libmsiecf
-#   - sift.packages.libncurses
+  - sift.packages.libncurses
 #   - sift.packages.libnet1
 #   - sift.packages.libolecf
 #   - sift.packages.libparse-win32registry-perl
@@ -143,7 +143,7 @@ include:
 #   - sift.packages.python-nids
 #   - sift.packages.python-ntdsxtract
 #   - sift.packages.python-pefile
-  # - sift.packages.python-pip
+  - sift.packages.python-pip
   # - sift.packages.python-plaso
 #   - sift.packages.python-pytsk3
 #   - sift.packages.python-qt4
@@ -344,7 +344,7 @@ sift-packages:
 #       - sls: sift.packages.python-nids
 #       - sls: sift.packages.python-ntdsxtract
 #       - sls: sift.packages.python-pefile
-      # - sls: sift.packages.python-pip
+      - sls: sift.packages.python-pip
       # - sls: sift.packages.python-plaso
 #       - sls: sift.packages.python-pytsk3
 #       - sls: sift.packages.python-qt4
