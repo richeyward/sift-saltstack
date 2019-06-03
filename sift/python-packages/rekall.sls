@@ -12,6 +12,7 @@ rekall-virtualenv:
     - name: /opt/rekall
     - pip_pkgs:
       - pip
+      - future==0.16.0
       - setuptools
       - wheel
       - rekall
