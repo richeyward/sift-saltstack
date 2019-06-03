@@ -186,7 +186,7 @@ include:
 #   - sift.packages.unrar
 #   - sift.packages.upx-ucl
 #   - sift.packages.vbindiff
-#   - sift.packages.vim
+  - sift.packages.vim
 #   - sift.packages.virtuoso-minimal
 #   - sift.packages.vmfs-tools
 #   - sift.packages.winbind
@@ -387,7 +387,7 @@ sift-packages:
 #       - sls: sift.packages.unrar
 #       - sls: sift.packages.upx-ucl
 #       - sls: sift.packages.vbindiff
-#       - sls: sift.packages.vim
+      - sls: sift.packages.vim
 #       - sls: sift.packages.virtuoso-minimal
 #       - sls: sift.packages.vmfs-tools
 #       - sls: sift.packages.winbind
