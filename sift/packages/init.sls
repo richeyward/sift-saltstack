@@ -136,7 +136,7 @@ include:
 #   - sift.packages.pyew
 #   - sift.packages.pyew
   # - sift.packages.python
-#   - sift.packages.python-dev
+  - sift.packages.python-dev
 #   - sift.packages.python-dfvfs
 #   - sift.packages.python-flowgrep
 #   - sift.packages.python-fuse
@@ -337,7 +337,7 @@ sift-packages:
 #       - sls: sift.packages.pyew
 #       - sls: sift.packages.pyew
       # - sls: sift.packages.python
-#       - sls: sift.packages.python-dev
+      - sls: sift.packages.python-dev
 #       - sls: sift.packages.python-dfvfs
 #       - sls: sift.packages.python-flowgrep
 #       - sls: sift.packages.python-fuse
