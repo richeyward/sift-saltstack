@@ -13,7 +13,7 @@ include:
 #   - sift.packages.bkhive
 #   - sift.packages.bless
 #   - sift.packages.blt
-#   - sift.packages.build-essential
+  - sift.packages.build-essential
 #   - sift.packages.bulk-extractor
 #   - sift.packages.cabextract
 #   - sift.packages.ccrypt
@@ -215,7 +215,7 @@ sift-packages:
 #       - sls: sift.packages.bkhive
 #       - sls: sift.packages.bless
 #       - sls: sift.packages.blt
-#       - sls: sift.packages.build-essential
+      - sls: sift.packages.build-essential
 #       - sls: sift.packages.bulk-extractor
 #       - sls: sift.packages.cabextract
 #       - sls: sift.packages.ccrypt
